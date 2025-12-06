@@ -71,4 +71,62 @@
     <h3>5. Payments</h3>
     <p>All payments are processed securely by <strong>Stripe</strong>. By completing a purchase, you authorize Ploxera to charge your selected payment method for the total transaction amount.</p>
 
-    <h3>6. Refunds
+    <h3>6. Refunds</h3>
+    <p>Refunds are handled according to our <a href="refund.html">Refund Policy</a>. Because digital goods cannot be returned, refunds are limited to specific cases such as non-delivery, technical issues we cannot resolve, or duplicate purchases.</p>
+
+    <h3>7. Customer Responsibilities</h3>
+    <p>When purchasing from Ploxera, you agree to:</p>
+
+    <ul>
+        <li>Provide accurate contact information.</li>
+        <li>Ensure your device supports the file formats purchased.</li>
+        <li>Download and store the files securely after purchase.</li>
+        <li>Not engage in unauthorized distribution of any Ploxera digital content.</li>
+    </ul>
+
+    <h3>8. Intellectual Property</h3>
+    <p>All Ploxera products, branding, and website content are protected by copyright and intellectual property laws. Unauthorized copying, sharing, or reselling is prohibited.</p>
+
+    <h3>9. Limitation of Liability</h3>
+    <p>Ploxera is not liable for:</p>
+
+    <ul>
+        <li>Losses resulting from misuse of digital products,</li>
+        <li>Compatibility issues with your hardware or software, or</li>
+        <li>Incidental or consequential damages related to your use of our content.</li>
+    </ul>
+
+    <p>Digital products are provided “as is,” without warranties of any kind.</p>
+
+    <h3>10. Chargebacks</h3>
+    <p>Customers agree to contact Ploxera for support before initiating a chargeback. Most issues can be resolved quickly through our support team. Filing unwarranted chargebacks may result in account restrictions.</p>
+
+    <h3>11. Modifications to These Terms</h3>
+    <p>Ploxera may update these Terms of Service at any time. Changes become effective once posted on this page with a revised “Last updated” date.</p>
+
+    <h3>12. Contact Information</h3>
+    <p>If you have questions or concerns regarding these Terms of Service, please contact us:</p>
+
+    <p><strong>Email:</strong> help@ploxera.com<br>
+
+</div>
+
+<!-- Cookie Banner -->
+<div id="cookie-banner" style="display:none; position:fixed; bottom:0; width:100%; background:#222; color:#fff; padding:15px; text-align:center; z-index:9999;">
+    We use cookies to ensure the best experience on our website.
+    <button id="cookie-accept" style="margin-left:10px; padding:5px 10px; cursor:pointer;">Accept</button>
+</div>
+
+<script>
+    if (!localStorage.getItem("cookiesAccepted")) {
+        document.getElementById("cookie-banner").style.display = "block";
+    }
+
+    document.getElementById("cookie-accept").onclick = function() {
+        localStorage.setItem("cookiesAccepted", "true");
+        document.getElementById("cookie-banner").style.display = "none";
+    };
+</script>
+
+</body>
+</html>

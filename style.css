@@ -10,7 +10,7 @@ p {
     text-align: justify;
 }
 
-
+/* 
 header {
     background: #111;
     color: #fff;
@@ -22,7 +22,18 @@ header p {
     text-align: center;
     margin: 0 auto;
     width: 100%;
+}*/
+
+header {
+    background:#111;
+    color:#fff;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
 
 nav {
     background: #333;

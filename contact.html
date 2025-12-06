@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Contact Ploxera for support, inquiries, or assistance with digital content purchases.">
+    <meta name="keywords" content="contact Ploxera, digital content support, customer service, Spain">
+    <meta name="author" content="Ploxera">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Contact Us – Ploxera">
+    <meta property="og:description" content="Get in touch with Ploxera for support or general business inquiries.">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>Contact Us – Ploxera</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Ploxera</h1>
+    <p>Contact Us</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="refund.html">Refund Policy</a>
+    <a href="terms.html">Terms of Service</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="contact.html">Contact</a>
+    <a href="legal.html">Legal Notice</a>
+</nav>
+
+<div class="container">
+
+    <h2>Contact Us</h2>
+    <p>If you need support, have questions about your digital purchase, or want to contact us for business-related inquiries, you can reach us at:</p>
+
+    <p><strong>Email:</strong> support@ploxera.com</p>
+
+    <p>We typically respond within <strong>24–48 hours</strong>.</p>
+
+    <h3>Business Information</h3>
+    <p><strong>Business name:</strong> Ploxera</p>
+    <p><strong>Location:</strong> Spain</p>
+
+    <h3>When to Contact Us</h3>
+    <ul>
+        <li>Issues with downloading digital content</li>
+        <li>Questions about product licensing</li>
+        <li>Refund or billing inquiries</li>
+        <li>General business or partnership inquiries</li>
+    </ul>
+
+    <p>If your request is urgent, please include <strong>“URGENT”</strong> in your subject line so we can prioritize your message.</p>
+
+</div>
+
+<!-- Cookie Banner -->
+<div id="cookie-banner" style="display:none; position:fixed; bottom:0; width:100%; background:#222; color:#fff; padding:15px; text-align:center; z-index:9999;">
+    We use cookies to ensure the best experience on our website.
+    <button id="cookie-accept" style="margin-left:10px; padding:5px 10px; cursor:pointer;">Accept</button>
+</div>
+
+<script>
+    if (!localStorage.getItem("cookiesAccepted")) {
+        document.getElementById("cookie-banner").style.display = "block";
+    }
+
+    document.getElementById("cookie-accept").onclick = function() {
+        localStorage.setItem("cookiesAccepted", "true");
+        document.getElementById("cookie-banner").style.display = "none";
+    };
+</script>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Legal Notice and company information for Ploxera, including business identity, responsibilities, and regulatory compliance.">
+    <meta name="keywords" content="legal notice, impressum, aviso legal, Ploxera, EU business information">
+    <meta name="author" content="Ploxera">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Legal Notice – Ploxera">
+    <meta property="og:description" content="Official legal notice and company information for Ploxera under EU law.">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>Legal Notice – Ploxera</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Ploxera</h1>
+    <p>Legal Notice</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="refund.html">Refund Policy</a>
+    <a href="terms.html">Terms of Service</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="contact.html">Contact</a>
+    <a href="legal.html">Legal Notice</a>
+</nav>
+
+<div class="container">
+
+    <h2>Legal Notice (EU Compliance)</h2>
+    <p><strong>Last updated: [insert date]</strong></p>
+
+    <p>This Legal Notice provides the required information about the owner of this website in accordance with EU regulations, including the eCommerce Directive (2000/31/EC), the Consumer Rights Directive, and applicable national laws.</p>
+
+    <h3>1. Website Owner</h3>
+    <p><strong>Business Name:</strong> Ploxera<br>
+       <strong>Business Type:</strong> Digital content provider<br>
+       <strong>Location:</strong> Spain</p>
+
+    <!-- If you later have a registered business number or full address, you can add it here -->
+
+    <h3>2. Contact Information</h3>
+    <p><strong>Email:</strong> support@ploxera.com</p>
+    <p>This is the primary method of communication for customer support, legal inquiries, and general business questions.</p>
+
+    <h3>3. Purpose of the Website</h3>
+    <p>This website provides digital products such as templates, graphic assets, e-books, and other downloadable resources. All products are delivered electronically after purchase.</p>
+
+    <h3>4. Intellectual Property</h3>
+    <p>All content on this website—including designs, graphics, digital products, branding, and text—is the intellectual property of Ploxera unless otherwise stated. Unauthorized reproduction or distribution is prohibited.</p>
+
+    <h3>5. Liability Disclaimer</h3>
+    <p>Ploxera is not responsible for misuse of digital products, compatibility issues, or user-side technical problems. Content is provided “as is,” without warranties of any kind beyond statutory EU consumer rights.</p>
+
+    <h3>6. External Links</h3>
+    <p>Our website may include links to third-party services (such as payment processing via Stripe). We are not responsible for the content or privacy practices of external websites.</p>
+
+    <h3>7. Applicable Law</h3>
+    <p>Use of this website is governed by the laws of Spain and applicable EU regulations. Any legal disputes will fall under Spanish jurisdiction unless EU law dictates otherwise.</p>
+
+    <h3>8. Professional & Regulatory Compliance (if applicable)</h3>
+    <p>Ploxera is not part of a regulated profession. If this changes, the relevant regulatory and registration information will be added to this notice.</p>
+
+</div>
+
+<!-- Cookie Banner -->
+<div id="cookie-banner" style="display:none; position:fixed; bottom:0; width:100%; background:#222; color:#fff; padding:15px; text-align:center; z-index:9999;">
+    We use cookies to ensure the best experience on our website.
+    <button id="cookie-accept" style="margin-left:10px; padding:5px 10px; cursor:pointer;">Accept</button>
+</div>
+
+<script>
+    if (!localStorage.getItem("cookiesAccepted")) {
+        document.getElementById("cookie-banner").style.display = "block";
+    }
+
+    document.getElementById("cookie-accept").onclick = function() {
+        localStorage.setItem("cookiesAccepted", "true");
+        document.getElementById("cookie-banner").style.display = "none";
+    };
+</script>
+
+</body>
+</html>

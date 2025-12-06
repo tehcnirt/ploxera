@@ -1,49 +1,30 @@
-/* ==========================================
-   PLOXERA BRAND THEME — GLOBAL VARIABLES
-   ========================================== */
-:root {
-    /* Brand Colors */
-    --brand-bg: #0D1C3A;       /* Deep Navy */
-    --brand-text: #F1EDE6;     /* Soft Off-White */
-    --brand-muted: #C9C6BE;    /* Muted Gray Text */
-
-    /* Accent Colors (Logo Gradient) */
-    --accent-light: #F5C15A;   /* Yellow-Orange */
-    --accent-dark: #E4872E;    /* Deep Orange */
-
-    /* UI Elements */
-    --ui-outline: #6D7688;     /* Circle Outline Gray */
-    --shadow-dark: rgba(0, 0, 0, 0.35);
-}
-
-/* ==========================================
-   GLOBAL PAGE SETTINGS
-   ========================================== */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     margin: 0;
     padding: 0;
-    background: var(--brand-bg);
-    color: var(--brand-text);
+    background: #0D1C3A;
+    color: #222;
 }
 
-/* ==========================================
-   HEADER STYLING
-   ========================================== */
+p {
+    text-align: justify;
+}
+
 header {
-    background: var(--brand-bg);
-    color: var(--brand-text);
-    padding: 30px 20px;
-    text-align: center;
-    border-bottom: 1px solid var(--ui-outline);
+    background:#111;
+    color:#fff;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-/* Make header clickable + centered */
 header a {
     display: inline-block;
-    width: 100%;
     text-align: center;
-    color: var(--brand-text);
+    width: 100%;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -51,124 +32,48 @@ header a:hover {
     text-decoration: none;
 }
 
-/* Header tagline */
-header p {
-    margin: 5px auto 0;
-    width: 100%;
-    color: var(--brand-muted);
-    font-size: 1.1rem;
+header a:visited {
+    color: #fff;
 }
 
-/* ==========================================
-   TOP NAVIGATION MENU
-   ========================================== */
 nav {
-    background: #112446;
-    padding: 12px;
+    background: #333;
+    padding: 10px;
     text-align: center;
-    border-bottom: 1px solid var(--ui-outline);
 }
 
 nav a {
-    color: var(--brand-text);
-    margin: 0 18px;
+    color: #fff;
+    margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1rem;
+}
+
+nav a:visited {
+    color: #fff;
 }
 
 nav a:hover {
-    color: var(--accent-light);
     text-decoration: underline;
 }
 
-/* Prevent visited link purple */
-nav a:visited {
-    color: var(--brand-text);
-}
-
-/* ==========================================
-   MAIN CONTENT CONTAINER
-   ========================================== */
 .container {
     width: 90%;
     max-width: 900px;
-    margin: 40px auto;
-    background: #122042;
-    padding: 30px;
-    box-shadow: 0 0 12px var(--shadow-dark);
-    border-radius: 8px;
-    color: var(--brand-text);
-}
-
-.container h2,
-.container h3 {
-    color: var(--accent-light);
-}
-
-/* ==========================================
-   LINKS INSIDE CONTENT
-   ========================================== */
-.container a {
-    color: var(--accent-light);
-}
-
-.container a:hover {
-    color: var(--accent-dark);
-}
-
-/* ==========================================
-   FOOTER STYLING
-   ========================================== */
-footer {
-    background: var(--brand-bg);
-    color: var(--brand-muted);
-    text-align: center;
+    margin: 30px auto;
+    background: #fff;
     padding: 25px;
-    margin-top: 50px;
-    border-top: 1px solid var(--ui-outline);
+    box-shadow: 0 0 8px rgba(0, 0, 0, .1);
 }
 
 footer a {
-    color: var(--brand-text);
-    margin: 0 10px;
     text-decoration: none;
 }
 
 footer a:hover {
-    color: var(--accent-light);
     text-decoration: underline;
 }
 
 footer a:visited {
-    color: var(--brand-text);
-}
-
-/* ==========================================
-   BUTTON STYLES (for CTA & Cookie Banner)
-   ========================================== */
-button {
-    padding: 10px 22px;
-    background: linear-gradient(135deg, var(--accent-light), var(--accent-dark));
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    color: #000;
-    font-weight: bold;
-    font-size: 1rem;
-}
-
-button:hover {
-    opacity: 0.9;
-}
-
-/* ==========================================
-   COOKIE BANNER STYLING
-   ========================================== */
-#cookie-banner {
-    background: #112446;
-    color: var(--brand-text);
-    padding: 25px;
-    font-size: 18px;
-    border-top: 1px solid var(--ui-outline);
+    color: #fff;
 }

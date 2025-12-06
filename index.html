@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ploxera provides digital content including templates, graphic assets, and e-books. Instant downloads.">
+    <meta name="keywords" content="digital content, templates, downloads, ebooks, graphics, Spain">
+    <meta name="author" content="Ploxera">
+    <meta property="og:title" content="Ploxera – Digital Content Solutions">
+    <meta property="og:description" content="Templates, graphics, and digital downloads delivered instantly.">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>Ploxera – Digital Content</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1>Ploxera</h1><p>Digital Content Solutions</p></header>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="refund.html">Refund Policy</a>
+    <a href="terms.html">Terms of Service</a>
+    <a href="privacy.html">Privacy Policy</a>
+</nav>
+<div class="container">
+    <h2>About Ploxera</h2>
+    <p>Ploxera provides downloadable digital products such as templates, guides, graphics, and educational resources. All products are delivered instantly after purchase via email.</p>
+
+    <h2>Our Digital Products</h2>
+    <ul><li>Templates and Toolkits</li><li>Graphic Asset Bundles</li><li>E-books and Educational Content</li></ul>
+
+    <h2>How Delivery Works</h2>
+    <p>All products are digital and delivered instantly via email after payment.</p>
+
+    <h2>Contact Us</h2>
+    <p>Email: support@ploxera.com</p><p>Location: Spain</p>
+</div>
+<div id="cookie-banner" style="display:none; position:fixed; bottom:0; width:100%; background:#222; color:#fff; padding:15px; text-align:center; z-index:9999;">
+    We use cookies to ensure the best experience on our website.
+    <button id="cookie-accept" style="margin-left:10px; padding:5px 10px; cursor:pointer;">Accept</button>
+</div>
+<script>
+if (!localStorage.getItem("cookiesAccepted")) {
+    document.getElementById("cookie-banner").style.display = "block";
+}
+document.getElementById("cookie-accept").onclick = function() {
+    localStorage.setItem("cookiesAccepted", "true");
+    document.getElementById("cookie-banner").style.display = "none";
+};
+</script>
+</body></html>

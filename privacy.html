@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Privacy Policy for Ploxera, explaining how personal data is collected, processed, and protected under GDPR for digital content customers.">
-    <meta name="keywords" content="privacy policy, GDPR, data protection, Ploxera, EU privacy">
-    <meta name="author" content="Ploxera">
+<!-- ========================= -->
+<!--        SEO META TAGS      -->
+<!-- ========================= -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Open Graph Tags -->
-    <meta property="og:title" content="Privacy Policy – Ploxera">
-    <meta property="og:description" content="Learn how Ploxera processes and protects your personal data according to GDPR and EU law.">
-    <meta property="og:type" content="website">
+<!-- Primary Meta Tags -->
+<meta name="description" content="GDPR-compliant privacy practices for Ploxera users.">
+<meta name="keywords" content="Ploxera, digital content, templates, downloads, Spain, digital products">
+<meta name="author" content="Ploxera">
 
-    <link rel="icon" type="image/png" href="favicon.png">
-    <title>Privacy Policy – Ploxera</title>
+<!-- Open Graph Tags for Social Sharing -->
+<meta property="og:title" content="Privacy Policy – Ploxera">
+<meta property="og:description" content="How Ploxera handles personal data.">
+<meta property="og:type" content="website">
 
-    <link rel="stylesheet" href="style.css">
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="favicon.png">
+
+<!-- Page Title -->
+<title>Privacy Policy – Ploxera</title>
+
+<!-- Stylesheet -->
+<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-
 <header>
-    <h1>Ploxera</h1>
-    <p>Privacy Policy</p>
+<h1>Ploxera</h1>
+<p>Privacy Policy</p>
 </header>
 
 <nav>
-    <a href="index.html">Home</a>
-    <a href="refund.html">Refund Policy</a>
-    <a href="terms.html">Terms of Service</a>
-    <a href="privacy.html">Privacy Policy</a>
-    <a href="contact.html">Contact</a>
-    <a href="legal.html">Legal Notice</a>
+<a href="index.html">Home</a>
+<a href="refund.html">Refund Policy</a>
+<a href="terms.html">Terms of Service</a>
+<a href="privacy.html">Privacy Policy</a>
+<a href="contact.html">Contact</a>
+<a href="legal.html">Legal Notice</a>
 </nav>
 
 <div class="container">
@@ -131,21 +139,33 @@
 
 </div>
 
-<!-- Cookie Banner -->
+
+<footer style="background:#111; color:#fff; text-align:center; padding:20px; margin-top:40px;">
+    <p>
+        <a href="index.html" style="color:#fff; margin:0 10px; text-decoration:none;">Home</a> |
+        <a href="refund.html" style="color:#fff; margin:0 10px; text-decoration:none;">Refund Policy</a> |
+        <a href="terms.html" style="color:#fff; margin:0 10px; text-decoration:none;">Terms of Service</a> |
+        <a href="privacy.html" style="color:#fff; margin:0 10px; text-decoration:none;">Privacy Policy</a> |
+        <a href="contact.html" style="color:#fff; margin:0 10px; text-decoration:none;">Contact</a> |
+        <a href="legal.html" style="color:#fff; margin:0 10px; text-decoration:none;">Legal Notice</a>
+    </p>
+    <p>© <script>document.write(new Date().getFullYear());</script> Ploxera. All Rights Reserved.</p>
+</footer>
+
+
+<!-- Cookie Consent Banner -->
 <div id="cookie-banner" style="display:none; position:fixed; bottom:0; width:100%; background:#222; color:#fff; padding:15px; text-align:center; z-index:9999;">
-    We use cookies to ensure the best experience on our website.
-    <button id="cookie-accept" style="margin-left:10px; padding:5px 10px; cursor:pointer;">Accept</button>
+We use cookies to ensure the best experience on our website.
+<button id="cookie-accept" style="margin-left:10px; padding:5px 10px; cursor:pointer;">Accept</button>
 </div>
-
 <script>
-    if (!localStorage.getItem("cookiesAccepted")) {
-        document.getElementById("cookie-banner").style.display = "block";
-    }
-
-    document.getElementById("cookie-accept").onclick = function() {
-        localStorage.setItem("cookiesAccepted", "true");
-        document.getElementById("cookie-banner").style.display = "none";
-    };
+if (!localStorage.getItem("cookiesAccepted")) {
+document.getElementById("cookie-banner").style.display = "block";
+}
+document.getElementById("cookie-accept").onclick = function() {
+localStorage.setItem("cookiesAccepted","true");
+document.getElementById("cookie-banner").style.display = "none";
+};
 </script>
 
 </body>
